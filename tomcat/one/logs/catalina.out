@@ -1,0 +1,293 @@
+Listening for transport dt_socket at address: 9991
+18-Dec-2015 08:27:37.446 SEVERE [main] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at d:/aaronl/startup/script/shell/../..//tomcat/one/temp
+18-Dec-2015 08:27:38.001 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '1' did not find a matching property.
+18-Dec-2015 08:27:38.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.27
+18-Dec-2015 08:27:38.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2015 08:17:25 UTC
+18-Dec-2015 08:27:38.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.27.0
+18-Dec-2015 08:27:38.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+18-Dec-2015 08:27:38.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+18-Dec-2015 08:27:38.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Dec-2015 08:27:38.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             d:\Program Files\Java\jdk1.8.0_31\jre
+18-Dec-2015 08:27:38.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_31-b13
+18-Dec-2015 08:27:38.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Dec-2015 08:27:38.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\aaronl\startup\tomcat\one
+18-Dec-2015 08:27:38.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\aaronl\startup\tomcat\one
+18-Dec-2015 08:27:38.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=d:/aaronl/startup/script/shell/../..//tomcat/one/conf/logging.properties
+18-Dec-2015 08:27:38.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2015 08:27:38.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=d:/aaronl/startup/script/shell/../..//tomcat/one
+18-Dec-2015 08:27:38.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=d:/aaronl/startup/script/shell/../..//tomcat/one
+18-Dec-2015 08:27:38.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=d:/aaronl/startup/script/shell/../..//tomcat/onetemp
+18-Dec-2015 08:27:38.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms256m
+18-Dec-2015 08:27:38.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024m
+18-Dec-2015 08:27:38.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=160m
+18-Dec-2015 08:27:38.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.language=en
+18-Dec-2015 08:27:38.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF8
+18-Dec-2015 08:27:38.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.timezone=GMT
+18-Dec-2015 08:27:38.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.net.preferIPv4Stack=true
+18-Dec-2015 08:27:38.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=9991
+18-Dec-2015 08:27:38.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=d:/aaronl/startup/script/shell/../..//tomcat/one/endorsed
+18-Dec-2015 08:27:38.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=d:/aaronl/startup/script/shell/../..//tomcat/one
+18-Dec-2015 08:27:38.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=d:/aaronl/startup/script/shell/../..//tomcat/one
+18-Dec-2015 08:27:38.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=d:/aaronl/startup/script/shell/../..//tomcat/one/temp
+18-Dec-2015 08:27:38.032 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: d:\Program Files\Java\jdk1.8.0_31\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;u:\bin;.;D:\Program Files\Git\local\bin;D:\Program Files\Git\mingw\bin;D:\Program Files\Git\bin;d:\Program Files\Java\jdk1.8.0_31\bin;d:\Program Files\Java\jdk1.8.0_31\jre\bin;c:\ProgramData\Oracle\Java\javapath;c:\Windows\system32;c:\Windows;c:\Windows\System32\Wbem;c:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Enterprise Vault\EVClient\;d:\Program Files\TortoiseSVN\bin;d:\Program Files\Perforce;d:\Program Files\Symantec\VIP Access Client\;d:\Program Files\apache-ant-1.9.4\bin;d:\apache-maven-3.2.1\bin;d:\Program Files\nodejs\;D:\Program Files\Git\cmd;d:\Program Files\cygwin64\bin;c:\Program Files (x86)\WebEx\Productivity Tools;d:\tool\memcached\win64\bin;c:\Users\aaronl\AppData\Roaming\npm;c:\Users\aaronl\AppData\Roaming\npm;.
+18-Dec-2015 08:27:38.266 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Dec-2015 08:27:38.344 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Dec-2015 08:27:38.360 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Dec-2015 08:27:38.360 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Dec-2015 08:27:38.360 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 891 ms
+18-Dec-2015 08:27:38.391 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+18-Dec-2015 08:27:38.391 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.27
+18-Dec-2015 08:27:41.522 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Dec-2015 08:27:41.652 INFO [localhost-startStop-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+18-Dec-2015 08:27:41.939 INFO [localhost-startStop-1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Dec 18 08:27:41 GMT 2015]; root of context hierarchy
+18-Dec-2015 08:27:42.032 INFO [localhost-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from class path resource [spring-my.xml]
+18-Dec-2015 08:27:42.485 INFO [localhost-startStop-1] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+18-Dec-2015 08:27:42.516 INFO [localhost-startStop-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 864 ms
+18-Dec-2015 08:27:42.688 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [172] milliseconds.
+18-Dec-2015 08:27:44.226 WARNING [localhost-startStop-1] org.glassfish.jersey.media.multipart.internal.MultiPartReaderClientSide.createMimeConfig Cannot create temporary files. Multipart attachments will be limited to "4,096" bytes.
+ java.io.IOException: The system cannot find the path specified
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createTempFile(File.java:2024)
+	at org.glassfish.jersey.media.multipart.internal.MultiPartReaderClientSide.createMimeConfig(MultiPartReaderClientSide.java:143)
+	at org.glassfish.jersey.media.multipart.internal.MultiPartReaderClientSide.<init>(MultiPartReaderClientSide.java:125)
+	at org.glassfish.jersey.media.multipart.internal.MultiPartReaderServerSide.<init>(MultiPartReaderServerSide.java:81)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.glassfish.hk2.utilities.reflection.ReflectionHelper.makeMe(ReflectionHelper.java:1129)
+	at org.jvnet.hk2.internal.ClazzCreator.createMe(ClazzCreator.java:274)
+	at org.jvnet.hk2.internal.ClazzCreator.create(ClazzCreator.java:368)
+	at org.jvnet.hk2.internal.SystemDescriptor.create(SystemDescriptor.java:471)
+	at org.jvnet.hk2.internal.SingletonContext$1.compute(SingletonContext.java:82)
+	at org.jvnet.hk2.internal.SingletonContext$1.compute(SingletonContext.java:70)
+	at org.glassfish.hk2.utilities.cache.Cache$OriginThreadAwareFuture$1.call(Cache.java:97)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.glassfish.hk2.utilities.cache.Cache$OriginThreadAwareFuture.run(Cache.java:154)
+	at org.glassfish.hk2.utilities.cache.Cache.compute(Cache.java:199)
+	at org.jvnet.hk2.internal.SingletonContext.findOrCreate(SingletonContext.java:121)
+	at org.jvnet.hk2.internal.Utilities.createService(Utilities.java:2064)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:105)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:87)
+	at org.glassfish.jersey.internal.inject.ProviderToService.apply(ProviderToService.java:58)
+	at org.glassfish.jersey.internal.inject.ProviderToService.apply(ProviderToService.java:54)
+	at jersey.repackaged.com.google.common.collect.Iterators$8.transform(Iterators.java:860)
+	at jersey.repackaged.com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)
+	at java.util.AbstractCollection.addAll(AbstractCollection.java:343)
+	at java.util.LinkedHashSet.<init>(LinkedHashSet.java:169)
+	at jersey.repackaged.com.google.common.collect.Sets.newLinkedHashSet(Sets.java:292)
+	at org.glassfish.jersey.internal.inject.Providers.getClasses(Providers.java:392)
+	at org.glassfish.jersey.internal.inject.Providers.getCustomProviders(Providers.java:202)
+	at org.glassfish.jersey.message.internal.MessageBodyFactory.<init>(MessageBodyFactory.java:221)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.glassfish.hk2.utilities.reflection.ReflectionHelper.makeMe(ReflectionHelper.java:1129)
+	at org.jvnet.hk2.internal.ClazzCreator.createMe(ClazzCreator.java:274)
+	at org.jvnet.hk2.internal.ClazzCreator.create(ClazzCreator.java:368)
+	at org.jvnet.hk2.internal.SystemDescriptor.create(SystemDescriptor.java:471)
+	at org.jvnet.hk2.internal.SingletonContext$1.compute(SingletonContext.java:82)
+	at org.jvnet.hk2.internal.SingletonContext$1.compute(SingletonContext.java:70)
+	at org.glassfish.hk2.utilities.cache.Cache$OriginThreadAwareFuture$1.call(Cache.java:97)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.glassfish.hk2.utilities.cache.Cache$OriginThreadAwareFuture.run(Cache.java:154)
+	at org.glassfish.hk2.utilities.cache.Cache.compute(Cache.java:199)
+	at org.jvnet.hk2.internal.SingletonContext.findOrCreate(SingletonContext.java:121)
+	at org.jvnet.hk2.internal.Utilities.createService(Utilities.java:2064)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetService(ServiceLocatorImpl.java:711)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getService(ServiceLocatorImpl.java:653)
+	at org.glassfish.jersey.server.model.ComponentModelValidator.<init>(ComponentModelValidator.java:97)
+	at org.glassfish.jersey.server.ApplicationHandler.initialize(ApplicationHandler.java:522)
+	at org.glassfish.jersey.server.ApplicationHandler.access$500(ApplicationHandler.java:166)
+	at org.glassfish.jersey.server.ApplicationHandler$3.run(ApplicationHandler.java:327)
+	at org.glassfish.jersey.internal.Errors$2.call(Errors.java:289)
+	at org.glassfish.jersey.internal.Errors$2.call(Errors.java:286)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.processWithException(Errors.java:286)
+	at org.glassfish.jersey.server.ApplicationHandler.<init>(ApplicationHandler.java:324)
+	at org.glassfish.jersey.servlet.WebComponent.<init>(WebComponent.java:338)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:171)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:363)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1231)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1144)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1031)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4923)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5215)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1408)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1398)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+18-Dec-2015 08:27:44.550 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Dec-2015 08:27:44.560 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+18-Dec-2015 08:27:44.563 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 6225 ms
+===============================2
+===============================2
+===============================2
+===============================2
+===============================2
+===============================2
+===============================2
+18-Dec-2015 08:28:22.837 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Dec-2015 08:28:22.837 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Dec-2015 08:28:22.873 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+18-Dec-2015 08:28:22.924 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+18-Dec-2015 08:28:22.945 INFO [localhost-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Dec 18 08:27:41 GMT 2015]; root of context hierarchy
+18-Dec-2015 08:28:22.954 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jersey2] created a ThreadLocal with key of type [org.jvnet.hk2.internal.PerLocatorUtilities$1] (value [org.jvnet.hk2.internal.PerLocatorUtilities$1@3c30fe27]) and a value of type [java.util.WeakHashMap] (value [{}]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+18-Dec-2015 08:28:22.955 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jersey2] created a ThreadLocal with key of type [org.jvnet.hk2.internal.PerLocatorUtilities$2] (value [org.jvnet.hk2.internal.PerLocatorUtilities$2@6dcaae2c]) and a value of type [java.util.WeakHashMap] (value [{javax.servlet.http.HttpServletRequest com.self.learn.resource.DemoResource.httpServletRequest=org.jvnet.hk2.internal.SoftAnnotatedElementAnnotationInfo@44794ee4, public org.glassfish.jersey.servlet.WebComponent$HttpServletRequestReferencingFactory(javax.inject.Provider)=org.jvnet.hk2.internal.SoftAnnotatedElementAnnotationInfo@7e2ff8be, protected org.glassfish.jersey.server.internal.process.ServerProcessingBinder$ContainerRequestFactory(javax.inject.Provider)=org.jvnet.hk2.internal.SoftAnnotatedElementAnnotationInfo@4555e09a}]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+18-Dec-2015 08:28:22.956 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jersey2] created a ThreadLocal with key of type [org.jvnet.hk2.internal.PerLocatorUtilities$1] (value [org.jvnet.hk2.internal.PerLocatorUtilities$1@3c30fe27]) and a value of type [java.util.WeakHashMap] (value [{}]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+18-Dec-2015 08:28:22.956 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jersey2] created a ThreadLocal with key of type [org.jvnet.hk2.internal.PerLocatorUtilities$1] (value [org.jvnet.hk2.internal.PerLocatorUtilities$1@3c30fe27]) and a value of type [java.util.WeakHashMap] (value [{}]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+18-Dec-2015 08:28:22.956 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jersey2] created a ThreadLocal with key of type [org.jvnet.hk2.internal.PerLocatorUtilities$1] (value [org.jvnet.hk2.internal.PerLocatorUtilities$1@3c30fe27]) and a value of type [java.util.WeakHashMap] (value [{}]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+18-Dec-2015 08:28:22.957 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jersey2] created a ThreadLocal with key of type [org.jvnet.hk2.internal.PerLocatorUtilities$1] (value [org.jvnet.hk2.internal.PerLocatorUtilities$1@3c30fe27]) and a value of type [java.util.WeakHashMap] (value [{}]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+18-Dec-2015 08:28:22.957 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jersey2] created a ThreadLocal with key of type [org.jvnet.hk2.internal.PerLocatorUtilities$1] (value [org.jvnet.hk2.internal.PerLocatorUtilities$1@3c30fe27]) and a value of type [java.util.WeakHashMap] (value [{}]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+18-Dec-2015 08:28:22.957 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jersey2] created a ThreadLocal with key of type [org.jvnet.hk2.internal.PerLocatorUtilities$1] (value [org.jvnet.hk2.internal.PerLocatorUtilities$1@3c30fe27]) and a value of type [java.util.WeakHashMap] (value [{}]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+18-Dec-2015 08:28:22.963 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Dec-2015 08:28:22.966 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+18-Dec-2015 08:28:22.967 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Dec-2015 08:28:22.969 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=160m; support was removed in 8.0
+Listening for transport dt_socket at address: 9991
+18-Dec-2015 08:28:45.594 SEVERE [main] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at d:/aaronl/startup/script/shell/../..//tomcat/one/temp
+18-Dec-2015 08:28:46.164 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '1' did not find a matching property.
+18-Dec-2015 08:28:46.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.27
+18-Dec-2015 08:28:46.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2015 08:17:25 UTC
+18-Dec-2015 08:28:46.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.27.0
+18-Dec-2015 08:28:46.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+18-Dec-2015 08:28:46.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+18-Dec-2015 08:28:46.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Dec-2015 08:28:46.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             d:\Program Files\Java\jdk1.8.0_31\jre
+18-Dec-2015 08:28:46.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_31-b13
+18-Dec-2015 08:28:46.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Dec-2015 08:28:46.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\aaronl\startup\tomcat\one
+18-Dec-2015 08:28:46.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\aaronl\startup\tomcat\one
+18-Dec-2015 08:28:46.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=d:/aaronl/startup/script/shell/../..//tomcat/one/conf/logging.properties
+18-Dec-2015 08:28:46.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2015 08:28:46.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=d:/aaronl/startup/script/shell/../..//tomcat/one
+18-Dec-2015 08:28:46.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=d:/aaronl/startup/script/shell/../..//tomcat/one
+18-Dec-2015 08:28:46.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=d:/aaronl/startup/script/shell/../..//tomcat/onetemp
+18-Dec-2015 08:28:46.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms256m
+18-Dec-2015 08:28:46.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024m
+18-Dec-2015 08:28:46.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=160m
+18-Dec-2015 08:28:46.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.language=en
+18-Dec-2015 08:28:46.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF8
+18-Dec-2015 08:28:46.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.timezone=GMT
+18-Dec-2015 08:28:46.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.net.preferIPv4Stack=true
+18-Dec-2015 08:28:46.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=9991
+18-Dec-2015 08:28:46.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=d:/aaronl/startup/script/shell/../..//tomcat/one/endorsed
+18-Dec-2015 08:28:46.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=d:/aaronl/startup/script/shell/../..//tomcat/one
+18-Dec-2015 08:28:46.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=d:/aaronl/startup/script/shell/../..//tomcat/one
+18-Dec-2015 08:28:46.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=d:/aaronl/startup/script/shell/../..//tomcat/one/temp
+18-Dec-2015 08:28:46.211 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: d:\Program Files\Java\jdk1.8.0_31\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;u:\bin;.;D:\Program Files\Git\local\bin;D:\Program Files\Git\mingw\bin;D:\Program Files\Git\bin;d:\Program Files\Java\jdk1.8.0_31\bin;d:\Program Files\Java\jdk1.8.0_31\jre\bin;c:\ProgramData\Oracle\Java\javapath;c:\Windows\system32;c:\Windows;c:\Windows\System32\Wbem;c:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Enterprise Vault\EVClient\;d:\Program Files\TortoiseSVN\bin;d:\Program Files\Perforce;d:\Program Files\Symantec\VIP Access Client\;d:\Program Files\apache-ant-1.9.4\bin;d:\apache-maven-3.2.1\bin;d:\Program Files\nodejs\;D:\Program Files\Git\cmd;d:\Program Files\cygwin64\bin;c:\Program Files (x86)\WebEx\Productivity Tools;d:\tool\memcached\win64\bin;c:\Users\aaronl\AppData\Roaming\npm;c:\Users\aaronl\AppData\Roaming\npm;.
+18-Dec-2015 08:28:46.427 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Dec-2015 08:28:46.539 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Dec-2015 08:28:46.539 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Dec-2015 08:28:46.539 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Dec-2015 08:28:46.539 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 929 ms
+18-Dec-2015 08:28:46.558 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+18-Dec-2015 08:28:46.559 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.27
+18-Dec-2015 08:28:50.024 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Dec-2015 08:28:50.188 INFO [localhost-startStop-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+18-Dec-2015 08:28:50.501 INFO [localhost-startStop-1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Dec 18 08:28:50 GMT 2015]; root of context hierarchy
+18-Dec-2015 08:28:50.642 INFO [localhost-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from class path resource [spring-my.xml]
+18-Dec-2015 08:28:51.111 INFO [localhost-startStop-1] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+18-Dec-2015 08:28:51.142 INFO [localhost-startStop-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 954 ms
+18-Dec-2015 08:28:51.313 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [171] milliseconds.
+18-Dec-2015 08:28:52.712 WARNING [localhost-startStop-1] org.glassfish.jersey.media.multipart.internal.MultiPartReaderClientSide.createMimeConfig Cannot create temporary files. Multipart attachments will be limited to "4,096" bytes.
+ java.io.IOException: The system cannot find the path specified
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createTempFile(File.java:2024)
+	at org.glassfish.jersey.media.multipart.internal.MultiPartReaderClientSide.createMimeConfig(MultiPartReaderClientSide.java:143)
+	at org.glassfish.jersey.media.multipart.internal.MultiPartReaderClientSide.<init>(MultiPartReaderClientSide.java:125)
+	at org.glassfish.jersey.media.multipart.internal.MultiPartReaderServerSide.<init>(MultiPartReaderServerSide.java:81)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.glassfish.hk2.utilities.reflection.ReflectionHelper.makeMe(ReflectionHelper.java:1129)
+	at org.jvnet.hk2.internal.ClazzCreator.createMe(ClazzCreator.java:274)
+	at org.jvnet.hk2.internal.ClazzCreator.create(ClazzCreator.java:368)
+	at org.jvnet.hk2.internal.SystemDescriptor.create(SystemDescriptor.java:471)
+	at org.jvnet.hk2.internal.SingletonContext$1.compute(SingletonContext.java:82)
+	at org.jvnet.hk2.internal.SingletonContext$1.compute(SingletonContext.java:70)
+	at org.glassfish.hk2.utilities.cache.Cache$OriginThreadAwareFuture$1.call(Cache.java:97)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.glassfish.hk2.utilities.cache.Cache$OriginThreadAwareFuture.run(Cache.java:154)
+	at org.glassfish.hk2.utilities.cache.Cache.compute(Cache.java:199)
+	at org.jvnet.hk2.internal.SingletonContext.findOrCreate(SingletonContext.java:121)
+	at org.jvnet.hk2.internal.Utilities.createService(Utilities.java:2064)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:105)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:87)
+	at org.glassfish.jersey.internal.inject.ProviderToService.apply(ProviderToService.java:58)
+	at org.glassfish.jersey.internal.inject.ProviderToService.apply(ProviderToService.java:54)
+	at jersey.repackaged.com.google.common.collect.Iterators$8.transform(Iterators.java:860)
+	at jersey.repackaged.com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)
+	at java.util.AbstractCollection.addAll(AbstractCollection.java:343)
+	at java.util.LinkedHashSet.<init>(LinkedHashSet.java:169)
+	at jersey.repackaged.com.google.common.collect.Sets.newLinkedHashSet(Sets.java:292)
+	at org.glassfish.jersey.internal.inject.Providers.getClasses(Providers.java:392)
+	at org.glassfish.jersey.internal.inject.Providers.getCustomProviders(Providers.java:202)
+	at org.glassfish.jersey.message.internal.MessageBodyFactory.<init>(MessageBodyFactory.java:221)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.glassfish.hk2.utilities.reflection.ReflectionHelper.makeMe(ReflectionHelper.java:1129)
+	at org.jvnet.hk2.internal.ClazzCreator.createMe(ClazzCreator.java:274)
+	at org.jvnet.hk2.internal.ClazzCreator.create(ClazzCreator.java:368)
+	at org.jvnet.hk2.internal.SystemDescriptor.create(SystemDescriptor.java:471)
+	at org.jvnet.hk2.internal.SingletonContext$1.compute(SingletonContext.java:82)
+	at org.jvnet.hk2.internal.SingletonContext$1.compute(SingletonContext.java:70)
+	at org.glassfish.hk2.utilities.cache.Cache$OriginThreadAwareFuture$1.call(Cache.java:97)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.glassfish.hk2.utilities.cache.Cache$OriginThreadAwareFuture.run(Cache.java:154)
+	at org.glassfish.hk2.utilities.cache.Cache.compute(Cache.java:199)
+	at org.jvnet.hk2.internal.SingletonContext.findOrCreate(SingletonContext.java:121)
+	at org.jvnet.hk2.internal.Utilities.createService(Utilities.java:2064)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetService(ServiceLocatorImpl.java:711)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getService(ServiceLocatorImpl.java:653)
+	at org.glassfish.jersey.server.model.ComponentModelValidator.<init>(ComponentModelValidator.java:97)
+	at org.glassfish.jersey.server.ApplicationHandler.initialize(ApplicationHandler.java:522)
+	at org.glassfish.jersey.server.ApplicationHandler.access$500(ApplicationHandler.java:166)
+	at org.glassfish.jersey.server.ApplicationHandler$3.run(ApplicationHandler.java:327)
+	at org.glassfish.jersey.internal.Errors$2.call(Errors.java:289)
+	at org.glassfish.jersey.internal.Errors$2.call(Errors.java:286)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.processWithException(Errors.java:286)
+	at org.glassfish.jersey.server.ApplicationHandler.<init>(ApplicationHandler.java:324)
+	at org.glassfish.jersey.servlet.WebComponent.<init>(WebComponent.java:338)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:171)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:363)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1231)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1144)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1031)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4923)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5215)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1408)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1398)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+18-Dec-2015 08:28:53.024 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Dec-2015 08:28:53.024 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+18-Dec-2015 08:28:53.024 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 6484 ms
+18-Dec-2015 08:31:39.271 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Dec-2015 08:31:39.272 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Dec-2015 08:31:39.327 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+18-Dec-2015 08:31:39.377 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+18-Dec-2015 08:31:39.399 INFO [localhost-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Dec 18 08:28:50 GMT 2015]; root of context hierarchy
+18-Dec-2015 08:31:39.411 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Dec-2015 08:31:39.413 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+18-Dec-2015 08:31:39.414 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Dec-2015 08:31:39.416 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=160m; support was removed in 8.0

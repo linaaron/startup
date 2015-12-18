@@ -1,8 +1,12 @@
 #! /bin/bash
 
 BASEDIR=$( cd "$(dirname $0)" && pwd)/../../
+BASEDIR2=$( cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/../../
 echo "=================================="
+echo $(dirname $0)
+echo ${BASH_SOURCE[0]}
 echo $BASEDIR
+echo ${BASEDIR2}
 
 for a in 1 2 3 4 
 do
