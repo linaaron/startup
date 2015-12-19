@@ -2,6 +2,4 @@
 
 . shell/service.sh
 
-#installWar
-
-startTomcat
+startTomcatTwo
