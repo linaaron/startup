@@ -1,15 +1,14 @@
 #!/bin/bash
-
-BASE_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/../../
+. ./shell/evn.sh
 
 function installWar() {
-    echo "Installing war..."
+    echo "Installing $1 war..."
 
     if [[ -z $1 ]]
     then
-        mvn clean install  -Dmaven.test.skip=true
+        mvn clean install -f $BECKEND_HOME -Dmaven.test.skip=true
     else
-        mvn clean install -Dmaven.test.skip=true
+        mvn clean install -f $BECKEND_HOME/$1 -Dmaven.test.skip=true
     fi
 }
 
