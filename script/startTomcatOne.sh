@@ -2,4 +2,6 @@
 
 . shell/service.sh
 
+#installWar
+
 startTomcat

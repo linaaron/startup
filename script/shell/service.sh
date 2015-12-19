@@ -15,7 +15,7 @@ function installWar() {
 function startTomcat() {
     echo "Starting tomcat ..."
     export CATALINA_HOME="$BASE_DIR/tomcat/one"
-    export CATALINA_BASE="$BASE_DIR/tomcat/one"
+#    export CATALINA_BASE="$BASE_DIR/tomcat/one"
     export JAVA_OPTS="-Dcatalina.home=$CATALINA_HOME -Dcatalina.base=$CATALINA_HOME  -Djava.io.tmpdir=$CATALINA_HOME\temp -ms256m -mx1024m  -XX:MaxPermSize=160m -Duser.language=en -Dfile.encoding=UTF8 -Duser.timezone=GMT -Djava.net.preferIPv4Stack=true"
     export CATALINA_OPTS="-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=9991"
     export CATALINA_PID="$BASE_DIR/tomcat/catalina.pid"
@@ -26,7 +26,7 @@ function startTomcat() {
 function stopTomcat() {
     echo "Stoping tomcat ..."
     export CATALINA_HOME="$BASE_DIR/tomcat/one"
-    export CATALINA_BASE="$BASE_DIR/tomcat/one"
+#    export CATALINA_BASE="$BASE_DIR/tomcat/one"
     export CATALINA_PID="$BASE_DIR/tomcat/catalina.pid"
     $CATALINA_HOME/bin/catalina.sh stop -force
 }

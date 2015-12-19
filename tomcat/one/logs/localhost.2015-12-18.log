@@ -1,6 +1,0 @@
-18-Dec-2015 08:27:41.562 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Spring WebApplicationInitializers detected on classpath: [org.glassfish.jersey.server.spring.SpringWebApplicationInitializer@78d3f973]
-18-Dec-2015 08:27:41.652 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
-18-Dec-2015 08:28:22.945 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
-18-Dec-2015 08:28:50.078 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Spring WebApplicationInitializers detected on classpath: [org.glassfish.jersey.server.spring.SpringWebApplicationInitializer@146a07d9]
-18-Dec-2015 08:28:50.188 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
-18-Dec-2015 08:31:39.399 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
