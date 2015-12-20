@@ -47,3 +47,17 @@ function stopTomcat() {
     export CATALINA_PID="$BASE_DIR/software/tomcat/catalina.pid"
     $CATALINA_HOME/bin/catalina.sh stop -force
 }
+
+function startApache() {
+    echo "Starting apache..."
+
+    $APACHE_HOME/bin/httpd &
+    echo $! > $APACHE_HOME/../httpd.pid
+    echo $APACHE_HOME
+}
+
+function stopApache() {
+    echo "Stopping apache..."
+
+    kill -9 $(cat $APACHE_HOME/../httpd.pid)
+}
