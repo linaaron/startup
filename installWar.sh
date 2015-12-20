@@ -1,4 +1,4 @@
 #! /bin/bash
-. ./shell/service.sh
+. ./script/shell/service.sh
 
 installWar $1

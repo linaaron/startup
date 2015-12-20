@@ -1,5 +1,5 @@
 #! /bin/bash
 
-. shell/service.sh
+. ./script/shell/service.sh
 
 stopTomcat
