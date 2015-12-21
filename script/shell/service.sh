@@ -53,7 +53,6 @@ function startApache() {
 
     $APACHE_HOME/bin/httpd &
     echo $! > $APACHE_HOME/../httpd.pid
-    echo $APACHE_HOME
 }
 
 function stopApache() {
