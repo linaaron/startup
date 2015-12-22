@@ -120,16 +120,7 @@
       </Realm>
 
       <Host name="localhost"  appBase="webapps"
-            unpackWARs="true" autoDeploy="true">
-		
-		<!--	
-		<Context path="/springMVC" crossContext="true" docBase="D:\aaronl\self\springMVC\target\Spring4MVC" debug="1"  reloadable="true"  cookies="true"  />
-		-->
-		<!--	
-		<Context path="/jersey" crossContext="true" docBase="D:\aaronl\self\jersey\target\Jersey" debug="1" reloadable="true" cookies="true" />
-		-->
-
-          <Context path="/jersey2" crossContext="true" docBase="D:/aaronl/beckend\jerseySpringMyBatis\target\JSMyBatis" debug="1" reloadable="true" cookies="true" />
+            unpackWARs="false" autoDeploy="false">
 
         <!-- SingleSignOn valve, share authentication between web applications
              Documentation at: /docs/config/valve.html -->
