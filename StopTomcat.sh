@@ -2,4 +2,4 @@
 
 . ./script/shell/service.sh
 
-stopTomcat
+stopAllTomcat $*

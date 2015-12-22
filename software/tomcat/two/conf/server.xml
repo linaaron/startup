@@ -90,7 +90,6 @@
     <!-- Define an AJP 1.3 Connector on port 8009 -->
     <Connector port="8010" protocol="AJP/1.3" redirectPort="8443" />
 
-
     <!-- An Engine represents the entry point (within Catalina) that processes
          every request.  The Engine implementation for Tomcat stand alone
          analyzes the HTTP headers included with the request, and passes them
@@ -128,9 +127,9 @@
 		-->
 		<!--	
 		<Context path="/jersey" crossContext="true" docBase="D:\aaronl\self\jersey\target\Jersey" debug="1" reloadable="true" cookies="true" />
-		-->	
-		<Context path="/jersey2" crossContext="true" docBase="D:\aaronl\self\jerseySpringMyBatis\target\JSMyBatis" debug="1" reloadable="true" cookies="true" />
-			
+		-->
+
+          <Context path="/jersey2" crossContext="true" docBase="D:/aaronl/beckend\jerseySpringMyBatis\target\JSMyBatis" debug="1" reloadable="true" cookies="true" />
 
         <!-- SingleSignOn valve, share authentication between web applications
              Documentation at: /docs/config/valve.html -->
