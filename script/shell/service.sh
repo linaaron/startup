@@ -8,7 +8,7 @@ function installWar() {
     then
         mvn clean install -f $BECKEND_HOME -Dmaven.test.skip=true
     else
-        mvn clean install -gs $MAVEN_HOME/conf/settings-self.xml -f $BECKEND_HOME/$1 -Dmaven.test.skip=true
+        mvn clean install -gs $MAVEN_HOME/conf/settings-self.xml -f $BECKEND_HOME -pl $1 -amd -Dmaven.test.skip=true
     fi
 }
 
@@ -42,7 +42,14 @@ function startTomcat() {
     export CATALINA_HOME="$BASE_DIR/software/tomcat/$1"
 #    export CATALINA_BASE="$BASE_DIR/software/tomcat/$1"
     export JAVA_OPTS="-Dcatalina.home=$CATALINA_HOME -Dcatalina.base=$CATALINA_HOME -Dspring.profiles.active=test -Dself.env=local -Djava.io.tmpdir=$CATALINA_HOME\temp -ms256m -mx1024m  -XX:MaxPermSize=160m -Duser.language=en -Dfile.encoding=UTF8 -Duser.timezone=GMT -Djava.net.preferIPv4Stack=true"
-#    export CATALINA_OPTS="-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=9991"
+
+    if [[ $1 == "one" ]]
+    then
+        export CATALINA_OPTS="-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=9991"
+    else
+        unset CATALINA_OPTS
+    fi
+
     export CATALINA_PID="$CATALINA_HOME/catalina.pid"
 
     $CATALINA_HOME/bin/catalina.sh start
@@ -80,7 +87,8 @@ function stopTomcat() {
 
     if [[ -e $CATALINA_PID && -s $CATALINA_PID ]]
     then
-        $CATALINA_HOME/bin/catalina.sh stop -force
+        $CATALINA_HOME/bin/catalina.sh stop -force # ||
+#        killall -9 java
     else
         echo "no tomcat $1 pid"
     fi
